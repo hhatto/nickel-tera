@@ -1,0 +1,11 @@
+{% if foo %}
+  {{ foo }}
+{% else %}
+  foo is empty
+{% endif %}
+
+hello: {{ hello }}
+
+{% for v in vector %}
+  {{ v }},
+{% endfor %}

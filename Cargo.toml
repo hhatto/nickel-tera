@@ -1,0 +1,14 @@
+[package]
+name = "nickel_tera"
+version = "0.1.0"
+authors = ["Hideo Hattori <hhatto.jp@gmail.com>"]
+description = "Tera template rendering for nickel"
+keywords = ["tera", "nickel", "templates", "web"]
+license = "MIT"
+repository = "https://github.com/hhatto/nickel-tera"
+
+[dependencies]
+nickel = "0.8.1"
+tera = "0.1.3"
+plugin = "0.2.6"
+typemap = "0.3.3"
