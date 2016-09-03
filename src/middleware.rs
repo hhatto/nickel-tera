@@ -1,6 +1,6 @@
 use std::sync::Arc;
-use tera::{Tera, Context};
-use nickel::{Request, Response, Continue, Middleware, MiddlewareResult, Halt};
+use tera::Tera;
+use nickel::{Request, Response, Continue, Middleware, MiddlewareResult};
 use typemap::Key;
 use plugin::Extensible;
 
